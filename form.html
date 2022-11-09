@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style></style>
+</head>
+
+<body>
+    <form>
+        <ol>
+            <div>
+                <li><label>first Name</label>
+                    <input placeholder="Enter your First name" required>
+            </div>
+            </li>
+            <div>
+                <li>
+                    <label>Last Name</label>
+                    <input placeholder="Enter your Last name" required>
+            </div>
+            </li>
+            <div>
+                <li>
+                    <label>Email Id</label>
+                    <input type="email" placeholder="Enter your Email Id" required>
+            </div>
+            </li>
+            <div>
+                <li>
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter your password" minlength="8" required>
+            </div>
+            </li>
+        </ol>
+        <div>
+            exist course
+            <input type="checkbox" name="html" value="html" />
+            <lable>HTML</lable>
+            <input type="checkbox" name="css" value="css" />
+            <lable>CSS</lable>
+        </div>
+        <div>
+            eligiblity
+            <input type="radio" name="markup" value="html" />
+            <label>html</label>
+            <input type="radio" name="markup" value="xml" />
+            <label>xml</label>
+        </div>
+        <div>
+            <label for="birthday"> Date Of Birth</label>
+            <input type="datetime-local" name="birthday">
+        </div>
+        <div>
+            <label>
+                address
+            </label><br>
+            <textarea rows="20" cols="60" placeholder="enter about your self"></textarea>
+        </div>
+        <div>
+            <label>Subject</label>
+            <select name="subject" required>
+                <option value=""> no selected</option>
+                <option value="maths"> Maths</option>
+                <option value="physics">Physics</option>
+                <option value="chemistry">Chemistry</option>
+            </select>
+        </div>
+        <div>
+            <label>file upload</label>
+            <input type="file" />
+        </div>
+        <input type="submit" name="submit" />
+        <input type="reset" name="reset" />
+        <input type="button" name="button" value="open" />
+
+
+    </form>
+</body>
+
+</html>
+</body>
+
+</html>
